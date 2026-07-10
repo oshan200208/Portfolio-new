@@ -31,7 +31,7 @@ function App() {
         <h1>Oshan Helinda </h1>
         <p>Software Engineering Undergraduate</p>
         
-        <a href="/Oshan_CV.pdf" download="Oshan_CV.pdf" className="download-btn">
+        <a href="/Oshan CV.pdf" download="Oshan CV.pdf" className="download-btn">
           Download CV 📄
         </a>
       </header>
