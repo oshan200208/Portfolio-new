@@ -147,8 +147,23 @@ function App() {
         <div className="projects-grid">
           <div className="project-card">
             <h3>Indoor Cricket Stadium System</h3>
-            <p>An online hourly slot booking and management system tailored for indoor softball cricket stadiums.</p>
+            <p>Developed a web application to streamline sports ground reservations and prevent double-bookings. Implemented real-time slot availability checks and an efficient Admin Dashboard for venue management’s Stack: [CSS, React ,Node js] | Database: [MySQL]</p>
             <p>GitHub Repositories: <a href="https://github.com/bwohelinda/Ground-booking-system.git" target="_blank" rel="noreferrer">Ground-booking-system.git</a></p>
+          </div>
+          <div className="project-card">
+            <h3>Omi Royal Game</h3>
+            <p>Developed a high-performance Omi card game simulation using Flutter and Dart with predictive AI bot mechanics and trick history tracking. Integrated traditional rules ('Renou', 'Kapothi', 'Seporu') and a seamless English/Sinhala localization system. Optimized the UI to 60FPS using high-performance gradients to eliminate rendering bottlenecks, delivering a production-ready codebase with zero errors or warnings.</p>
+            <p>GitHub Repositories: <a href="https://github.com/oshan200208/omi-game.git" target="_blank" rel="noreferrer">Omi Geme.git</a></p>
+          </div>
+          <div className="project-card">
+            <h3>Real-Time High-Concurrency Booking Engine</h3>
+            <p>Developed a high-concurrency reservation system using React, Node.js, Express, and MySQL. Eliminated overbooking under heavy traffic using MySQL pessimistic locking (FOR UPDATE) and integrated Socket.io for real-time inventory synchronization. Engineered an automated Dynamic Pricing Algorithm that scales rates by 1.5x at 80% occupancy, and implemented node-cron background workers to automatically release unconfirmed holds after 10 minutes.</p>
+            <p>GitHub Repositories: <a href="https://github.com/oshan200208/Ticket-system.git" target="_blank" rel="noreferrer">Ticket-booking-system.git</a></p>
+          </div>
+          <div className="project-card">
+            <h3>Indoor Cricket Stadium System</h3>
+            <p>Developed a full-stack Kanban task manager using React.js, Node.js, Express, and MySQL, featuring live widgets and dynamic profile editing built on enterprise architecture standards. Integrated comprehensive backend testing using Jest and Supertest to validate REST API routes and database mutations. Engineered high-performance End-to-End (E2E) UI tests via Playwright, achieving complete user flow execution in under 750 milliseconds.</p>
+            <p>GitHub Repositories: <a href="https://github.com/oshan200208/taskflow.git" target="_blank" rel="noreferrer">Tasak Flow.git</a></p>
           </div>
         </div>
       </section>
